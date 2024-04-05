@@ -1,7 +1,7 @@
 <script>
     export default{
     name: 'ProjectCard',
-    props: ['element', 'key'],
+    props: ['element'],
     data(){
       return{
         
@@ -23,7 +23,7 @@
 
 <template>
   <div class="card dimensioniCard">
-      <img :src="this.element[preview]" class="card-img-top" :alt="this.element['title']">
+      <img :src="'http://127.0.0.1:8000/storage/'+ this.element['preview']" class="card-img-top" :alt="this.element['title']">
       <div class="card-body">
           <h6 class="card-title">{{this.element['title']}}</h6>
           <p class="card-text">
