@@ -33,8 +33,9 @@
           </p>
           <p class="card-text">{{this.element['description']}}</p>
           <p>{{this.element['language']}}</p>
-          <ul class="d-flex gap-2 unstyled flex-wrap p-0 m-0 pb-3">
-              placeholder
+          <ul class="d-flex gap-2 unstyled flex-wrap p-0 m-0 pb-3 justify-content-center">
+            <li class="badge text-bg-primary dimensioniPill" v-if="this.element.technologies" v-for="($tech,index) in this.element.technologies">{{$tech.name}}</li>
+            <li class="badge text-bg-danger dimensioniPill" v-else>Non ci sono Tecnologie selezionate</li>
           </ul>
       </div>
   </div>
