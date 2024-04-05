@@ -53,6 +53,8 @@
       --gap: 1.5rem;
       --columns: 3;
       flex-basis: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));
+      max-height: 500px;
+      overflow: auto;
   }
   .dimensioniPill{
       --gap: 0.5rem;
