@@ -1,10 +1,9 @@
 <script>
-  //import MainApp from './components/MainApp.vue';
-  import AppHeader from './components/AppHeader.vue';
+
   export default{
+    name: 'HomePage',
     components:{
-      //MainApp,
-      AppHeader,
+
     },
     data(){
       return{
@@ -21,9 +20,7 @@
 </script>
 
 <template>
-  <!-- <MainApp/> -->
-  <AppHeader/>
-  <router-view></router-view>
+    <h1>Home page</h1>
 
 
 
