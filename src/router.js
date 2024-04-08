@@ -14,12 +14,12 @@ const router = createRouter({
         },
         {
             path: '/projects',
-            name: 'Lista Progetti',
+            name: 'lista',
             component: ProjectList,
         },
         {
             path: '/projects/:slug',
-            name: 'Progetto visualizzato',
+            name: 'ProgettoVisualizzato',
             component: SingleProject,
         },
     ]

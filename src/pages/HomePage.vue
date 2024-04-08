@@ -20,7 +20,10 @@
 </script>
 
 <template>
-    <h1>Home page</h1>
+    <div  class="d-flex align-items-center justify-content-center flex-column gap-5 pt-3">
+        <h1 class="text-center">Home page</h1>
+        <router-link :to="{name: 'lista'}" class="btn btn-warning">Vai ai Progetti</router-link>
+    </div>
 
 
 
