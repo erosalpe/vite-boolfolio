@@ -32,7 +32,7 @@
                             <router-link :to="{name: 'home'}" class="nav-link">Home</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <router-link :to="{name: 'contact-us'}" class="nav-link">Contattaci</router-link>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
